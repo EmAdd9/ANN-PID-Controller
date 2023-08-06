@@ -6,7 +6,7 @@ is set as output variable assigned for t variable. The ANN is trained by
 ‘nnnstart’ command in fool fitting app in the MATLAB software. Numbers of
 hidden layers are chosen as 10 and training is done. After training the ANN
 block is placed in the Simulink diagram of speed control of BLDC motor as shown.
-![BLDC-Motor-Plant-Model](<Design and Implementation/BLDC-Plant-Model.png>)
+![BLDC-Motor-Plant-Model]("Design and Implementation/BLDC-Plant-Model.png")
 
 ## REFERENCE CONTROL MODEL OF BLDC MOTOR
 Reference control model will give ideal system response which will be compared
