@@ -36,19 +36,19 @@ Using pole zero mapping discretization method, 𝐺𝑚(𝑧)=𝑌𝑚𝑅(𝑧)
 
 # NEURAL NETWORK TRAINING
 Training a Neural Network means finding the appropriate Weights of the Neural Connections thanks to a feedback loop called Gradient Backward propagation. Figure 7 shows the neural network training. In the system identification stage a neural network plant model must be developed before the controller is used. The plant model predicts future plant outputs. The specifications of the plant model are given in figure.
-![Neural-Network-Training](<Design and Implementation/Training-Summary.png>)
+![Neural-Network-Training](<https://github.com/EmAdd9/ANN-PID-Controller/blob/dbf33cbf23acca30d5b2a478be2a49ac497e462b/Design%20and%20Implementation/Training-Summary.png>)
 
 ## Training Result
-![Neural-Network-Training-Result](<Design and Implementation/Training-report.png>)
+![Neural-Network-Training-Result](<https://github.com/EmAdd9/ANN-PID-Controller/blob/dbf33cbf23acca30d5b2a478be2a49ac497e462b/Design%20and%20Implementation/Training-report.png>)
 
 ## Regression Plot
-![Regresiion Plot](<Design and Implementation/Regression-Plot.png>)
+![Regresiion Plot](<https://github.com/EmAdd9/ANN-PID-Controller/blob/dbf33cbf23acca30d5b2a478be2a49ac497e462b/Design%20and%20Implementation/Regression-Plot.png>)
 
 ## Performance Plot
-![Regresiion Plot](<Design and Implementation/performace-plot.png>)
+![Regresiion Plot](<https://github.com/EmAdd9/ANN-PID-Controller/blob/dbf33cbf23acca30d5b2a478be2a49ac497e462b/Design%20and%20Implementation/performace-plot.png>)
 
 ## Error Histogram
-![Error-Histogram](<Design and Implementation/erroe-histogram.png>)
+![Error-Histogram](<https://github.com/EmAdd9/ANN-PID-Controller/blob/dbf33cbf23acca30d5b2a478be2a49ac497e462b/Design%20and%20Implementation/erroe-histogram.png>)
 
 ## Function Fitting Neural Network
-![Function-Fitting-NN](<Design and Implementation/Function-Fitting-NN.png>)
+![Function-Fitting-NN](<https://github.com/EmAdd9/ANN-PID-Controller/blob/dbf33cbf23acca30d5b2a478be2a49ac497e462b/Design%20and%20Implementation/Function-Fitting-NN.png>)
