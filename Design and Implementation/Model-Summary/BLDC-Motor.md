@@ -52,3 +52,19 @@ Training a Neural Network means finding the appropriate Weights of the Neural Co
 
 ## Function Fitting Neural Network
 ![Function-Fitting-NN](<https://github.com/EmAdd9/ANN-PID-Controller/blob/dbf33cbf23acca30d5b2a478be2a49ac497e462b/Design%20and%20Implementation/Function-Fitting-NN.png>)
+
+## Simulink Model of ANN Controller and BLDC Motor
+![Function-Fitting-NN](<https://github.com/EmAdd9/ANN-PID-Controller/blob/1ec4829b0d6c532e37f14d46ecaf6f26add480b6/Design%20and%20Implementation/Simulink%20Model%20for%20ANN%20Controlled%20BLDC%20motor.png>)
+
+## Process:
+Digital computer simulation model of BLDC motor drive has been developed by using Simulink MATLAB software as shown in Fig 6.Run this simulation. After this in MATLAB workspace the inputs u1 and y1 are declared to x variable and y is set as output variable assigned for t variable. The ANN is trained by ‘nnstart’ command in nftool fitting app in the MATLAB software. Numbers of hidden layers are chosen as 10 and training is done. After training the ANN block is placed in the Simulink diagram of speed control of BLDC motor as shown.Problems encountered and solutions
+
+### Problem encountered: - 
+i) Control of DC motor speed
+ii) Interface of DC motor with software (MATLAB/SIMULINK)
+iii) To acquire data from the DC motor
+
+### Solutions: -
+i) Use of ANN controller to the system
+ii) Implementation of DAQ card to the control board
+iii) Use of encoder from the DC motor to the control board
