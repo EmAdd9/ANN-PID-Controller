@@ -11,9 +11,12 @@ Nowadays, the field of electrical power system control in general and motor cont
 7. Finally, the performance of the proposed controller will be compared to the performance of the conventional BLDC motor controller for speed and accuracy.
 
 ## PURPOSE, SCOPE, AND APPLICABILITY
-## PURPOSE
+### PURPOSE
 - To estimate the speed of the DC motor and control it, ANN can replace sensors speed in the control systems model. Using ANN, we don’t have to calculate the parameters of the motor when designing the control system. It may be revealed that an appreciable advantage of a control system using ANNs when parameters of the DC motor is variable during the operation of the motors. The satisfying ability of the system control with ANNs and ANN application can be used in adaptive controlling in the control system machine with the complicated load. To control the speed of DC Motor, experts used PID Controller fortuning the ANN to improve speed accuracy.
-## SCOPE
+### SCOPE
 - An ANN based adaptive controller performance is superior it still lacks with some limitations, which provides room for improvement. Such possible improvements are indicated below, as possible directions for further work. In the present work the number of hidden layers and the number of neurons in the hidden layer are chosen by trial and error, bearing in mind that the smaller the number, the better itis in terms of both memory and time taken to implement the ANN. Further research can be done to find the optimum number of hidden layers and number of neurons in the hidden layer. weights and biases updating feature of the ANN can compensate for both parameter changes and disturbances during operation. The uses of the adaptive learning rate in the proposed controller reduce the possibility of overshooting particularly during the transient conditions. The feedback provision in the modified ANN motor structure also enhances the stability of the system.
-## APPLICABILITY
+### APPLICABILITY
 - Although the adaptive controllers' performance is superior, it still lacks some limitations, which provides room for improvement. As we know, the market potential increases with the increase in the efficiency of the system. Hence, further research can be done to improve the efficiency of the overall system during operation. Moreover, the efficient design of the controller may give a competitive advantage compared to the available systems.
+
+## ACKNOWLEDGEMENT
+I have taken efforts in this project. However, it would not have been possible without the kind support and help of many individuals and organization. I would like to extend my sincere thanks to all of them. I would like to express my sincere gratitude to my project guide “Dr. Asim Halder” for giving me the opportunity to work on this topic. It would never be possible for us to take this project to this level without his innovative ideas and his relentless support and encouragement. I would also like to give special thanks and appreciations to all my group mates for their kind co-operation support and encouragement which helped me a lot to complete my project within the limited time frame.
